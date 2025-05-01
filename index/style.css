@@ -1,0 +1,256 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    body {
+      font-family: 'Inter', sans-serif;
+    };
+}
+.container {
+    max-width: 100%;
+    background-color:antiquewhite;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.contyainer_nav {
+    display: flex;
+    gap: 30px;
+}
+span {
+    color: #0076F5;
+}
+.nav_button {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+
+}
+.main_hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+h1{
+    width: 800px;
+    font-size: 70px;
+    font-weight: Fira Code;
+    padding: 100px;
+    text-shadow: 1px 1px 2px gray;
+}
+.main_hero_left_buttons > button{
+    
+    padding: 20px;
+    border-radius: 15px;
+}
+.button_sign{
+    background-color: #0076F5;
+    color: white;
+    width: 200px;
+}
+.button_call {
+    color: #0076F5;
+    width: 200px;
+}
+.main_hero_left_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+.Statistika_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+.Statistika > h2 {
+    margin-bottom: 30px;
+    
+}
+.card1,.card2,.card3,.card4{
+    text-align: center;
+    padding: 50px;
+    background-color: #F5FAFF;
+    width: 350px;
+    height: 250px;
+    border-radius:10px;
+}
+.about_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_div_text {
+    
+    padding: 80px;
+    width: 480;
+    height: 250px;
+    margin-bottom: 200px;
+
+}
+.course_nav, .free_nav,.our_team_nav {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.course_cards_1 {
+    
+    text-align: center;
+    padding: 50px;
+    background-color: #F5FAFF;
+    width: 480px;
+    height: 520px;
+    border-radius:10px;
+    border: 1px solid black;
+}
+.course_button {
+    padding: 20px;
+    width: 150px;
+    border-radius:30px;
+}
+.course_cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first {
+    background-color: #0076F5;
+    color:white;
+}
+.free_card {
+    width: 350px;
+    height: 460px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.free_button {
+    width: 200px;
+     padding: 10px;
+     border-radius:10px;
+     color:#0076F5;
+     
+}
+.freebutton {
+     background-color: #0076F5;
+     color:white;
+}
+.free_card_divs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.our_team_card {
+    text-align: center;
+    padding: 70px;
+    background-color: #F5FAFF;
+    width: 400px;
+    height: 520px;
+    border-radius:10px;
+    
+}
+.our_team_card:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.our_team_card > h3 {
+    color:Blue;
+    font-weight: 300;
+    /* font-family: Inter sans-serif; */
+}
+.our_team_card_hol {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5FAFF;
+
+}
+.Certificate_divs {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 50px; */
+    gap: 160px;
+}
+.Certificate_right {
+   
+    width: 480px;
+    height: 100px;
+    
+}
+.PRO_icons >img {
+    color:#2990FF;
+
+}
+.PRO {
+    padding: 10px;
+    
+    width: 370px;
+    height: 200px;
+}
+.Webbrain_div {
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 20px;
+}
+.Webbrain {
+    padding: 50px;
+    border:1px solid black;
+}
+
+input,.join_button{
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+     border-radius:10px;
+}
+button:hover {
+    background-color: #007BFF;
+    color: white;
+    border-color: #0056b3;
+    cursor: pointer;
+  }
+
+input {
+    color:#0076F5;
+}
+.join_button {
+    background-color: #0076F5;
+    color:white;
+    margin-top: 10px;
+}
+.Certificate,.about,.Statistika,.course,.team,.free  {
+    padding: 120px;
+    
+}
+.Certificate  >h2 {
+    margin-bottom: 20px;
+}
+
+.footer_webbrain {
+    text-align: center;
+}
+.Copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+}
+footer {
+    padding: 40px;
+}
